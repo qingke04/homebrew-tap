@@ -2,10 +2,10 @@ cask "clistory" do
   version "1.1"
   sha256 "e93a10f899de0e0b1ce01cf72016fe0ea4da6e4385cbee6674a6cd0d88e3cb07"
 
-  url "https://github.com/qingke04/clipboard-history/releases/download/v#{version}/Clistory-#{version}.dmg"
+  url "https://github.com/qingke04/clistory/releases/download/v#{version}/Clistory-#{version}.dmg"
   name "Clistory"
   desc "剪贴板历史记录与管理工具"
-  homepage "https://github.com/qingke04/clipboard-history"
+  homepage "https://github.com/qingke04/clistory"
 
   livecheck do
     url :url

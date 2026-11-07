@@ -1,6 +1,6 @@
 # homebrew-tap
 
-[Clistory](https://github.com/qingke04/clipboard-history)（中文名：历史粘贴板，Clip Once. Paste Anytime.）的 Homebrew Tap。
+[Clistory](https://github.com/qingke04/clistory)（中文名：历史粘贴板，Clip Once. Paste Anytime.）的 Homebrew Tap。
 
 ## 安装
 
