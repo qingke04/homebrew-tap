@@ -5,31 +5,31 @@
 ## 安装
 
 ```bash
-brew install --cask qingke04/tap/clipboard-history
+brew install --cask qingke04/tap/clistory
 ```
 
-该命令会自动 tap 本仓库，并且只信任 `clipboard-history` 这一个 cask（Homebrew 6 起的 tap trust 机制）。
+该命令会自动 tap 本仓库，并且只信任 `clistory` 这一个 cask（Homebrew 6 起的 tap trust 机制）。
 
 也可以先 tap 再安装：
 
 ```bash
 brew tap qingke04/tap
-brew trust --cask qingke04/tap/clipboard-history
-brew install --cask clipboard-history
+brew trust --cask qingke04/tap/clistory
+brew install --cask clistory
 ```
 
 ## 更新
 
 ```bash
-brew upgrade --cask qingke04/tap/clipboard-history
+brew upgrade --cask qingke04/tap/clistory
 ```
 
 ## 卸载
 
 ```bash
-brew uninstall --cask qingke04/tap/clipboard-history
+brew uninstall --cask qingke04/tap/clistory
 # 连同历史记录一起删除
-brew uninstall --zap --cask qingke04/tap/clipboard-history
+brew uninstall --zap --cask qingke04/tap/clistory
 ```
 
 ## 首次启动说明
@@ -44,7 +44,7 @@ xattr -dr com.apple.quarantine "/Applications/Clistory.app"
 
 ## 维护者说明
 
-发版后更新 `Casks/clipboard-history.rb`：
+发版后更新 `Casks/clistory.rb`：
 
 1. 修改 `version` 为新的版本号（tag 需为 `v<version>`）；
 2. 重新生成安装包，并更新 `sha256`（`shasum -a 256 Clistory-<version>.dmg`）；

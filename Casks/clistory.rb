@@ -1,4 +1,4 @@
-cask "clipboard-history" do
+cask "clistory" do
   version "1.1"
   sha256 "e93a10f899de0e0b1ce01cf72016fe0ea4da6e4385cbee6674a6cd0d88e3cb07"
 
