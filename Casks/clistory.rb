@@ -1,6 +1,6 @@
 cask "clistory" do
-  version "1.1"
-  sha256 "e93a10f899de0e0b1ce01cf72016fe0ea4da6e4385cbee6674a6cd0d88e3cb07"
+  version "1.1.1"
+  sha256 "d98b0c2e341bc4c675a0237c719a9b9ccdad37b9fa5906a8a12a15f226509885"
 
   url "https://github.com/qingke04/clistory/releases/download/v#{version}/Clistory-#{version}.dmg"
   name "Clistory"
